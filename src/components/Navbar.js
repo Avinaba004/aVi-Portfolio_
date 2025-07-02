@@ -50,6 +50,9 @@ function NavBar() {
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
+            <span className="star-hint ms-3 d-none d-md-inline">
+    ✨ Click anywhere to create stars
+  </span>
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
