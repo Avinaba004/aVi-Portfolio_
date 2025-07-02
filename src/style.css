@@ -158,7 +158,12 @@ button:focus {
   height: 3.4em !important;
   width: 4.5em !important;
 }
-
+.star-hint {
+  font-size: 0.85rem;
+  color: #bbb;
+  font-style: italic;
+  white-space: nowrap;
+}
 .navbar-nav .nav-link {
   color: white !important;
   padding-right: 1rem !important;
